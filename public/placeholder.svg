@@ -1,0 +1,29 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#grid)"/>
+  <circle cx="400" cy="400" r="280" fill="url(#accent)" filter="blur(60px)"/>
+  <g stroke="rgba(255,255,255,0.15)" stroke-width="1.5" fill="none">
+    <circle cx="400" cy="400" r="160"/>
+    <circle cx="400" cy="400" r="240"/>
+    <polygon points="400,240 538,320 538,480 400,560 262,480 262,320"/>
+  </g>
+  <g fill="white" opacity="0.9">
+    <circle cx="400" cy="400" r="8"/>
+    <path d="M400 360 L400 380 M400 420 L400 440 M360 400 L380 400 M420 400 L440 400" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="400" y="640" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="system-ui, -apple-system, sans-serif" font-size="14" letter-spacing="4">LIVE STREAMING ADMIN CONSOLE</text>
+</svg>
